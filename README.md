@@ -3,41 +3,41 @@ _____________________________________
 # Friday Night Funkin' - Psychness Engine
 ![image](https://github.com/user-attachments/assets/5f16e995-5e3b-4802-8f79-bc4a98a40449)
 
-このエンジンは、[Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine) 1.0.3を改造し、様々な機能を追加したちょっぴり上級者向けのエンジンです。
+This engine is a slightly advanced engine that modifies [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine) 1.0.3 and adds various features.
 
-上のLogoが[Codename Engine](https://github.com/CodenameCrew/CodenameEngine)のパクリとか言わないでくださいね？！　Logo作るのも大変なんですから！
+This isn't a completely ripoff of the [Codename Engine](https://github.com/CodenameCrew/CodenameEngine) logo!　It's too hard to make a logo.
 
-## ビルドするには？
-Psych Engineと変わらないはずです！
+## How to build?
+It should be the same as Psych Engine!
 
-[Psych Engine 1.x のビルド方法はこちらを参照してください！](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/BUILDING.md)
+[Please refer to this page for how to build Psych Engine 1.x!](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/BUILDING.md)
 
-## 新しい機能の例:
+## Examples of new features:
 
-### 少しだけ改造されたチャートエディタ
+### Slightly modified chart editor
 ![PsychnessChartEditor](docs/img/chart_editor_1.png)
-- 履歴機能が追加されました。
-- Ctrl + OでOpponentのNoteが全選択(現在のSection内のみ)できるようになりました。
-- Ctrl + PでPlayerのNoteが全選択(現在のSection内のみ)できるようになりました。
-- チャートがセーブされていない状態でゲームを閉じようとすると、警告が現れるようになりました。
+- A history feature has been added.
+- Ctrl + O now selects all Opponent notes (within the current section only).
+- Ctrl + P now selects all Player notes (within the current section only).
+- A warning now appears when attempting to close the game without saving the chart.
 
-### 全く新しい？Luaの世界
+### A completely new Lua world?
 
 ![Huh?](docs/img/script.png)
 
-おや...？
+Hmm...?
 
 ![LuaFreeplay](docs/img/custom_freeplay.gif)
 
-- Main MenuでLuaが使用可能
-- Custom Stateで0からLuaでStateを組み立てることが可能 (上のgifもこれで作られました!)
+- Lua is now available in the Main Menu.
+- You can now build a State from scratch using Lua in Custom State (the gif above was also created using this feature!).
 
-### Modの個性をさらに目立たせよう！
+### Make your mod stand out even more!
 ![Screenshot-2025-03-27 015755](https://github.com/user-attachments/assets/55446fba-dd93-425b-a798-b728c599727d)
-- `pack.json`と同じルートに`header.png`という名前の画像フォルダを入れてみてください！
-  上の画像のように表示させるはずです！ (サイズは1280 × 720をおすすめします。)
+- Try placing an image folder named `header.png` in the same root as `pack.json`!  
+  It should display as shown in the image above! (We recommend a size of 1280 × 720.)
 
-## クレジット:
+## Credits:
 
 ### Psychness Engine
 
