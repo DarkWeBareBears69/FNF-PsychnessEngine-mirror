@@ -5,7 +5,7 @@ _____________________________________
 
 This engine is a slightly advanced engine that modifies [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine) 1.0.3 and adds various features.
 
-This isn't a completely ripoff of the [Codename Engine](https://github.com/CodenameCrew/CodenameEngine) logo!　It's too hard to make a logo.
+This isn't a completely ripoff of the [Codename Engine](https://github.com/CodenameCrew/CodenameEngine) logo! It's too hard to make a logo.
 
 ## How to build?
 It should be the same as Psych Engine!
